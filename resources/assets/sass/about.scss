@@ -1,0 +1,66 @@
+#skill-container {
+    width: 100%;
+
+    .category {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1.5rem;
+
+        .label {
+            width: 150px;
+            font-weight: bold;
+            flex: none;
+        }
+
+        .list {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            span {
+                background-color: #ccc;
+                border-radius: .55rem;
+                margin: .2625rem;
+                padding: .2rem .5rem;
+                color: #333;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+#work-history {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+
+    .title {
+        font-weight: bold;
+    }
+    .dates {
+        float: right;
+    }
+    .company {
+        .name {
+            text-decoration: underline;
+        }
+        .location {
+            margin-left: 2rem;
+        }
+    }
+    .slugs {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .slug {
+            background-color: #ccc;
+            border-radius: .55rem;
+            margin: .2625rem;
+            padding: .2rem .5rem;
+            color: #333;
+            font-weight: 300;
+        }
+    }
+}

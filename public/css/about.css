@@ -1,0 +1,93 @@
+#skill-container {
+  width: 100%;
+}
+
+#skill-container .category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 1.5rem;
+}
+
+#skill-container .category .label {
+  width: 150px;
+  font-weight: bold;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+}
+
+#skill-container .category .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#skill-container .category .list span {
+  background-color: #ccc;
+  border-radius: .55rem;
+  margin: .2625rem;
+  padding: .2rem .5rem;
+  color: #333;
+  font-weight: 300;
+}
+
+#work-history {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+#work-history .title {
+  font-weight: bold;
+}
+
+#work-history .dates {
+  float: right;
+}
+
+#work-history .company .name {
+  text-decoration: underline;
+}
+
+#work-history .company .location {
+  margin-left: 2rem;
+}
+
+#work-history .slugs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#work-history .slugs .slug {
+  background-color: #ccc;
+  border-radius: .55rem;
+  margin: .2625rem;
+  padding: .2rem .5rem;
+  color: #333;
+  font-weight: 300;
+}
+
